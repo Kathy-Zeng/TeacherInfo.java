@@ -258,17 +258,17 @@ public class TeacherInfo
 		String courseNum = teacherData[2];
 		int students = 0; int part = 0; int whole = 0; 
 		double score = 0.0;
-		score = ((double)part/whole * 100);
+		score = ( (double) part/whole * 100);
 		if(courseNum.equals("222") )
 		System.out.println("Since Natasha Romanoff, aka BW does not teach " 
 			+ "course number 222, there is no data to report.");
 		else
 		{
-			System.out.printf("A (90 - 100):%4d%.2f%", students, scores.length);
-			System.out.printf("B (80 - 90) :%4d%.2f%", students, scores.length);
-			System.out.printf("C (70 - 80) :%4d%.2f%", students, scores.length);
-			System.out.printf("D (60 - 70) :%4d%.2f%", students, scores.length);
-			System.out.printf("F (0 - 59) :%4d%.2f%", students, scores.length);
+			System.out.printf("A (90 - 100):%4d%.2f%", students, score);
+			System.out.printf("B (80 - 90) :%4d%.2f%", students, score);
+			System.out.printf("C (70 - 80) :%4d%.2f%", students, score);
+			System.out.printf("D (60 - 70) :%4d%.2f%", students, score);
+			System.out.printf("F (0 - 59) :%4d%.2f%", students, score);
 		}
 		System.out.println("\n\n\n");
 	}
